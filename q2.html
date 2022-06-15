@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Quizside - ErDetEnAnd.dk</title>
+    <link rel="icon" type="image/x-icon" href="faneblad.png">
+    <base target="_top">
+  </head>
+  <body>
+    <center>
+    <script>
+      alert("For at gå fortsætte, skal du tillade Autoplay af musik og video.");
+    </script>
+    <h1>Vi sætter nu niveauet lidt op. Vi skal nemlig kigge på eskrementer. Til dette kan du få lidt arbejdsmusik.</h1>
+    <audio controls autoplay>
+      <source src="lortesang.mp4" type="audio/mpeg">
+    </audio>
+    <br>
+
+    <h2>Spørgsmål 1:</h2>
+    <img id="Facit1" style="width:100px">
+    <p id="Facit1"></p>
+    <br>
+    <button onclick="document.getElementById('Facit1').src='Kryds.png'">Ja</button>
+    <img src="Elefanteskrementer.jpg" alt="Et billede" width="500">      
+    <button onclick="document.getElementById('Facit1').src='Flueben.png'">Nej</button>
+    <br>
+    <button type="button" onclick="document.getElementById('Forklaring1').innerHTML = 'Dette er en elefantlort. Dette kan blandt andet ses på lortens størrelse'">Få en forklaring</button>
+    <p id="Forklaring1"></p> <br>
+
+    <h2>Spørgsmål 2:</h2>
+    <img id="Facit2" style="width:100px">
+    <br>
+    <button onclick="document.getElementById('Facit2').src='Kryds.png'">Ja</button>
+    <img src="FugleLort.jpg" alt="Et billede" width="500">      
+    <button onclick="document.getElementById('Facit2').src='Flueben.png'">Nej</button>
+    <br>
+    <button type="button" onclick="document.getElementById('Forklaring2').innerHTML = 'Dette er en gås. Gåsen er noget større end anden, og laver derfor en større lort.'">Få en forklaring</button>
+    <p id="Forklaring2"></p>
+    
+    <h3>Der er ikke flere spørgsmål. Du kan gå tilbage til startskærmen ved at trykke  <a href="HTML prjekt 1 - erdetenanddk.html">her.</a> </h3>
+
+    </center>
+
+    </body>
+</html>
